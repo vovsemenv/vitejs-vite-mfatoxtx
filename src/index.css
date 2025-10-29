@@ -45,14 +45,19 @@
   --radius: 12px;
 
   /* Light Nebula */
-  --background: hsla(0, 0%, 100%, 1);  /* bg/base/primary */
+  --background: hsla(0, 0%, 100%, 1); /* bg/base/primary */
   --foreground: hsla(217, 92%, 5%, 0.83); /* on/text/primary */
   --card: hsla(0, 0%, 100%, 1); /* bg/base/modal */
   --card-foreground: hsla(217, 92%, 5%, 0.83); /* on/text/primary */
   --popover: hsla(0, 0%, 100%, 1); /* bg/base/modal */
   --popover-foreground: hsla(217, 92%, 5%, 0.83); /* on/text/primary */
-  --primary: hsla(221, 80%, 54%, 1);  /* bg/support/aldebaran */
-  --primary-foreground: hsla(200, 60%, 99%, 0.99); /* constant/on/text/primary */ 
+  --primary: hsla(221, 80%, 54%, 1); /* bg/support/aldebaran */
+  --primary-foreground: hsla(
+    200,
+    60%,
+    99%,
+    0.99
+  ); /* constant/on/text/primary */
   --secondary: hsla(207, 64%, 28%, 0.1); /* bg/control/secondary */
   --secondary-foreground: hsla(217, 92%, 5%, 0.83); /* on/text/primary */
   --muted: hsla(200, 27%, 96%, 1); /* bg/base/secondary */
@@ -61,13 +66,13 @@
   --accent-foreground: hsla(217, 92%, 5%, 0.83); /* on/text/primary */
   --destructive: hsla(4, 80%, 54%, 1); /* bg/support/capella */
   --border: hsla(207, 64%, 28%, 0.1); /* on/border/light */
-  --input: hsla(0, 0%, 100%, 1);  /* bg/base/primary */
+  --input: hsla(207, 64%, 28%, 0.1);
   --ring: hsla(215, 94%, 7%, 0.72); /* on/border/heavy */
   --chart-1: hsla(136, 89%, 34%, 1); /* bg/dashboard/castor */
   --chart-2: hsla(4, 80%, 60%, 1); /* bg/dashboard/capella */
   --chart-3: hsla(31, 80%, 60%, 1); /* bg/dashboard/atlas */
   --chart-4: hsla(221, 20%, 60%, 1); /* bg/dashboard/rau */
-  --chart-5: hsla(285, 80%, 60%, 1);  /* bg/dashboard/skat */
+  --chart-5: hsla(285, 80%, 60%, 1); /* bg/dashboard/skat */
   --sidebar: hsla(180, 20%, 98%, 1); /* bg/base/theme-1 */
   --sidebar-foreground: hsla(214, 95%, 8%, 0.68); /* on/text/secondary */
   --sidebar-primary: hsla(221, 80%, 54%, 0.08); /* bg/alpha/aldebaran */
@@ -81,14 +86,19 @@
 .dark {
   color-scheme: dark;
   /* Dark Nebula */
-  --background: hsla(214, 21%, 13%, 1);  /* bg/base/primary */
+  --background: hsla(214, 21%, 13%, 1); /* bg/base/primary */
   --foreground: hsla(210, 80%, 98%, 0.96); /* on/text/primary */
   --card: hsla(218, 18%, 17%, 1); /* bg/base/modal */
   --card-foreground: hsla(210, 80%, 98%, 0.96); /* on/text/primary */
   --popover: hsla(218, 18%, 17%, 1); /* bg/base/modal */
   --popover-foreground: hsla(210, 80%, 98%, 0.96); /* on/text/primary */
-  --primary: hsla(219, 80%, 54%, 1);  /* bg/support/aldebaran */
-  --primary-foreground: hsla(200, 60%, 99%, 0.99); /* constant/on/text/primary */ 
+  --primary: hsla(219, 80%, 54%, 1); /* bg/support/aldebaran */
+  --primary-foreground: hsla(
+    200,
+    60%,
+    99%,
+    0.99
+  ); /* constant/on/text/primary */
   --secondary: hsla(216, 76%, 82%, 0.17); /* bg/control/secondary */
   --secondary-foreground: hsla(210, 80%, 98%, 0.96); /* on/text/primary */
   --muted: hsla(215, 18%, 21%, 1); /* bg/base/secondary */
@@ -97,33 +107,43 @@
   --accent-foreground: hsla(210, 80%, 98%, 0.96); /* on/text/primary */
   --destructive: hsla(4, 80%, 54%, 1); /* bg/support/capella */
   --border: hsla(219, 100%, 87%, 0.21); /* on/border/light */
-  --input: hsla(214, 21%, 13%, 1);  /* bg/base/primary */
+  --input: hsla(219, 100%, 87%, 0.21);
   --ring: hsla(212, 81%, 96%, 0.82); /* on/border/heavy */
   --chart-1: hsla(140, 50%, 50%, 1); /* bg/dashboard/castor */
   --chart-2: hsla(4, 89%, 64%, 1); /* bg/dashboard/capella */
   --chart-3: hsla(31, 90%, 64%, 1); /* bg/dashboard/atlas */
   --chart-4: hsla(221, 30%, 64%, 1); /* bg/dashboard/rau */
-  --chart-5: hsla(285, 90%, 64%, 1);  /* bg/dashboard/skat */
+  --chart-5: hsla(285, 90%, 64%, 1); /* bg/dashboard/skat */
   --sidebar: hsla(218, 18%, 17%, 1); /* bg/base/theme-1 */
   --sidebar-foreground: hsla(212, 81%, 96%, 0.82); /* on/text/secondary */
   --sidebar-primary: hsla(219, 80%, 54%, 0.12); /* bg/alpha/aldebaran */
   --sidebar-primary-foreground: hsla(210, 80%, 98%, 0.96); /* on/text/primary */
   --sidebar-accent: hsla(221, 74%, 82%, 0.12); /* bg/control/flat-medium */
-  --sidebar-accent-foreground: hsla(212, 81%, 96%, 0.82); /* on/text/secondary */
+  --sidebar-accent-foreground: hsla(
+    212,
+    81%,
+    96%,
+    0.82
+  ); /* on/text/secondary */
   --sidebar-border: hsla(219, 100%, 87%, 0.21); /* on/border/light */
   --sidebar-ring: hsla(220, 100%, 76%, 1); /* ad/other/focus */
 }
 
 .light-eclipse {
   /* Light Eclipse */
-  --background: hsla(0, 0%, 100%, 1);  /* bg/base/primary */
+  --background: hsla(0, 0%, 100%, 1); /* bg/base/primary */
   --foreground: hsla(217, 92%, 5%, 0.83); /* on/text/primary */
   --card: hsla(0, 0%, 100%, 1); /* bg/base/modal */
   --card-foreground: hsla(217, 92%, 5%, 0.83); /* on/text/primary */
   --popover: hsla(0, 0%, 100%, 1); /* bg/base/modal */
   --popover-foreground: hsla(217, 92%, 5%, 0.83); /* on/text/primary */
-  --primary: hsla(221, 80%, 54%, 1);  /* bg/support/aldebaran */
-  --primary-foreground: hsla(200, 60%, 99%, 0.99); /* constant/on/text/primary */ 
+  --primary: hsla(221, 80%, 54%, 1); /* bg/support/aldebaran */
+  --primary-foreground: hsla(
+    200,
+    60%,
+    99%,
+    0.99
+  ); /* constant/on/text/primary */
   --secondary: hsla(207, 64%, 28%, 0.1); /* bg/control/secondary */
   --secondary-foreground: hsla(217, 92%, 5%, 0.83); /* on/text/primary */
   --muted: hsla(200, 27%, 96%, 1); /* bg/base/secondary */
@@ -132,19 +152,24 @@
   --accent-foreground: hsla(217, 92%, 5%, 0.83); /* on/text/primary */
   --destructive: hsla(4, 80%, 54%, 1); /* bg/support/capella */
   --border: hsla(207, 64%, 28%, 0.1); /* on/border/light */
-  --input: hsla(0, 0%, 100%, 1);  /* bg/base/primary */
+  --input: hsla(207, 64%, 28%, 0.1);
   --ring: hsla(215, 94%, 7%, 0.72); /* on/border/heavy */
   --chart-1: hsla(136, 89%, 34%, 1); /* bg/dashboard/castor */
   --chart-2: hsla(4, 80%, 60%, 1); /* bg/dashboard/capella */
   --chart-3: hsla(31, 80%, 60%, 1); /* bg/dashboard/atlas */
   --chart-4: hsla(221, 20%, 60%, 1); /* bg/dashboard/rau */
-  --chart-5: hsla(285, 80%, 60%, 1);  /* bg/dashboard/skat */
+  --chart-5: hsla(285, 80%, 60%, 1); /* bg/dashboard/skat */
   --sidebar: hsla(213, 22%, 10%, 1); /* bg/base/theme-2 */
   --sidebar-foreground: hsla(212, 81%, 96%, 0.82); /* on/text/secondary */
   --sidebar-primary: hsla(219, 80%, 54%, 0.12); /* bg/alpha/aldebaran */
   --sidebar-primary-foreground: hsla(210, 80%, 98%, 0.96); /* on/text/primary */
   --sidebar-accent: hsla(221, 74%, 82%, 0.12); /* bg/control/flat-medium */
-  --sidebar-accent-foreground: hsla(212, 81%, 96%, 0.82); /* on/text/secondary */
+  --sidebar-accent-foreground: hsla(
+    212,
+    81%,
+    96%,
+    0.82
+  ); /* on/text/secondary */
   --sidebar-border: hsla(219, 100%, 87%, 0.21); /* on/border/light */
   --sidebar-ring: hsla(220, 100%, 76%, 1); /* ad/other/focus */
 }
@@ -152,14 +177,19 @@
 .dark-eclipse {
   color-scheme: dark;
   /* Dark Eclipse */
-  --background: hsla(214, 21%, 13%, 1);  /* bg/base/primary */
+  --background: hsla(214, 21%, 13%, 1); /* bg/base/primary */
   --foreground: hsla(210, 80%, 98%, 0.96); /* on/text/primary */
   --card: hsla(218, 18%, 17%, 1); /* bg/base/modal */
   --card-foreground: hsla(210, 80%, 98%, 0.96); /* on/text/primary */
   --popover: hsla(218, 18%, 17%, 1); /* bg/base/modal */
   --popover-foreground: hsla(210, 80%, 98%, 0.96); /* on/text/primary */
-  --primary: hsla(219, 80%, 54%, 1);  /* bg/support/aldebaran */
-  --primary-foreground: hsla(200, 60%, 99%, 0.99); /* constant/on/text/primary */ 
+  --primary: hsla(219, 80%, 54%, 1); /* bg/support/aldebaran */
+  --primary-foreground: hsla(
+    200,
+    60%,
+    99%,
+    0.99
+  ); /* constant/on/text/primary */
   --secondary: hsla(216, 76%, 82%, 0.17); /* bg/control/secondary */
   --secondary-foreground: hsla(210, 80%, 98%, 0.96); /* on/text/primary */
   --muted: hsla(215, 18%, 21%, 1); /* bg/base/secondary */
@@ -168,19 +198,24 @@
   --accent-foreground: hsla(210, 80%, 98%, 0.96); /* on/text/primary */
   --destructive: hsla(4, 80%, 54%, 1); /* bg/support/capella */
   --border: hsla(219, 100%, 87%, 0.21); /* on/border/light */
-  --input: hsla(214, 21%, 13%, 1);  /* bg/base/primary */
+  --input: hsla(219, 100%, 87%, 0.21); /* on/border/light */
   --ring: hsla(212, 81%, 96%, 0.82); /* on/border/heavy */
   --chart-1: hsla(140, 50%, 50%, 1); /* bg/dashboard/castor */
   --chart-2: hsla(4, 89%, 64%, 1); /* bg/dashboard/capella */
   --chart-3: hsla(31, 90%, 64%, 1); /* bg/dashboard/atlas */
   --chart-4: hsla(221, 30%, 64%, 1); /* bg/dashboard/rau */
-  --chart-5: hsla(285, 90%, 64%, 1);  /* bg/dashboard/skat */
+  --chart-5: hsla(285, 90%, 64%, 1); /* bg/dashboard/skat */
   --sidebar: hsla(213, 22%, 10%, 1); /* bg/base/theme-2 */
   --sidebar-foreground: hsla(212, 81%, 96%, 0.82); /* on/text/secondary */
   --sidebar-primary: hsla(219, 80%, 54%, 0.12); /* bg/alpha/aldebaran */
   --sidebar-primary-foreground: hsla(210, 80%, 98%, 0.96); /* on/text/primary */
   --sidebar-accent: hsla(221, 74%, 82%, 0.12); /* bg/control/flat-medium */
-  --sidebar-accent-foreground: hsla(212, 81%, 96%, 0.82); /* on/text/secondary */
+  --sidebar-accent-foreground: hsla(
+    212,
+    81%,
+    96%,
+    0.82
+  ); /* on/text/secondary */
   --sidebar-border: hsla(219, 100%, 87%, 0.21); /* on/border/light */
   --sidebar-ring: hsla(220, 100%, 76%, 1); /* ad/other/focus */
 }
